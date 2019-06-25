@@ -1,0 +1,7 @@
+<div>
+  <button (click)=listBefore()>before</button>
+  <button (click)=listAfter()>after</button>
+  <div>
+    <app-task *ngFor='let task of tasks' [task]=task> </app-task>
+</div>
+ </div>
